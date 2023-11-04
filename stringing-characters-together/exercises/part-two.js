@@ -35,6 +35,6 @@ console.log(dnaTwo.slice(16,19));
 //4) Use a template literal to print, "The DNA strand is ___ characters long."
 console.log(`The DNA strand is ${dnaTwo.length} characters long`);
 //5) Just for fun, apply methods to ``dna`` and use another template literal to print, 'taco cat'.
-dna.replace("TCG", "MOO");
 
-console.log(`taco cat`);
+
+console.log(`taco cat Gene: ${dnaTwo.toLowerCase()}`);
