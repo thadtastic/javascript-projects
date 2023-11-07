@@ -1,11 +1,32 @@
 // Code your selectRandomEntry function here:
 
+// loop to run until it has three different entries
+
 
 // Code your buildCrewArray function here:
 
 
 let idNumbers = [291, 414, 503, 599, 796, 890];
+function selectRandomEntry (randomId){
+  let index = Math.floor(Math.random() * idNumbers.length);
+   return randomId [index]
+ } 
+ let randomNum = [];
+ let id = selectRandomEntry(idNumbers)
+  while (randomNum.length < 3){
+    if (randomNum.includes(id)){
+console.log("already in here")
+      id = selectRandomEntry(idNumbers)
+}
+      else {
+        (randomNum.push(id))
+      }
+    }
+     
+  
 
+console.log(id);
+console.log(randomNum);
 // Here are the candidates and the 'animals' array:
 let candidateA = {
   'name':'Gordon Shumway',
