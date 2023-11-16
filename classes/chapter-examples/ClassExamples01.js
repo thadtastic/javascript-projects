@@ -1,9 +1,10 @@
 //Try adding new properties inside constructor.
 class Astronaut {
-   constructor(name, age, mass){
+   constructor(name, age, mass, ){
      this.name = name;
      this.age = age;
      this.mass = mass;
+     
    }
 }
 
